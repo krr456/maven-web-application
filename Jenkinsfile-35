@@ -4,6 +4,7 @@ pipeline {
         stage ("git checkout") {
             steps {
                 git credentialsId: '8ec0d9d9-6aa5-4306-b7b8-ed69d7bc6d22', url: 'https://github.com/krr456/node-js-app.git'
+echo "build nuber:"
             }
         }
     }
